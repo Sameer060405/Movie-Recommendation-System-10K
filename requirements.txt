@@ -1,0 +1,11 @@
+streamlit==1.32.0
+pandas==2.2.0
+numpy==1.26.4
+scikit-learn==1.4.0
+requests==2.31.0
+Pillow==10.2.0
+python-dotenv==1.0.1
+jupyter==1.0.0
+notebook==7.0.7
+matplotlib==3.8.3
+seaborn==0.13.2
