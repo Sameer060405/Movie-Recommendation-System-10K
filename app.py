@@ -15,7 +15,7 @@ retries = Retry(total=5, backoff_factor=0.3, status_forcelist=[500, 502, 503, 50
 session.mount('https://', HTTPAdapter(max_retries=retries))
 
 def fetch_poster(movie_id):
-    url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key=2c8ac926b76413bd376b23868633d1a8'
+    url = f'https://api.themoviedb.org/3/movie/{movie_id}?api_key="Your API KEY'
     try:
         response = session.get(url)
         response.raise_for_status()
